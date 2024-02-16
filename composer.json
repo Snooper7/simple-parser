@@ -1,0 +1,15 @@
+{
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    },
+    "files": [
+      "src/config.php",
+      "src/helpers.php"
+    ]
+  },
+  "require": {
+    "imangazaliev/didom": "^2.0",
+    "ext-curl": "*"
+  }
+}
